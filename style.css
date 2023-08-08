@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    font-family: helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    color:seashell ;
+}
+
+.nav{
+    position: fixed;
+    height: 69px;
+
+    display: flex;
+    width:auto;
+}
+.logo{
+    height: 50px;
+    margin-right: 100%;
+
+}
+
+.nav li{
+    text-decoration: underline;
+    list-style:none;
+    padding: 10px;
+} 
+
+.header{
+    background-image: url("img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+
+}
+
+.Mission{
+   background-color: black;
+   text-align: center;
+   position: relative;
+   top: 50%;
+   width: auto; 
+}
+
+.content{
+    width: 1000px;
+    text-align: center;
+
+
+}
+
+.Tea{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} 
+.type{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: 300px;
+}
