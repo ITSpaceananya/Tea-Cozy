@@ -14,10 +14,6 @@ body{
     justify-content: space-between;
 }
 
-.logo{
-    height: 50px;
-
-}
 
 nav li{
     text-decoration: underline;
