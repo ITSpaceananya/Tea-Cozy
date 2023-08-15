@@ -10,7 +10,7 @@ body{
 .container{
     position: fixed;
     height: 69px;
-    display: inline-flex;
+    display:flex;
     justify-content: space-between;
 }
 
