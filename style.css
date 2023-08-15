@@ -4,31 +4,36 @@ body{
     font-size: 22px;
     opacity: 0.9;
     color:seashell ;
+    text-align: center;
 }
 
-.nav{
+.container{
     position: fixed;
     height: 69px;
+}
 
-    display: flex;
-    width:auto;
+nav{
+    float: right;
 }
 .logo{
     height: 50px;
-    margin-right: 100%;
+    float: left;
+    margin-right: auto;
 
 }
 
-.nav li{
+nav li{
     text-decoration: underline;
     list-style:none;
     padding: 10px;
+    display: inline;
 } 
 
 .header{
     background-image: url("img-mission-background.jpg");
     height: 700px;
     width: 1200px;
+    margin: 0 auto;
 
 }
 
@@ -43,20 +48,65 @@ body{
 .content{
     width: 1000px;
     text-align: center;
-
+    margin: 0 auto;
+    
 
 }
+.type{
+    display:inline-flex ;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    column-gap: 1em;
 
+    
+}
 .Tea{
     width: 300px;
     height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 } 
-.type{
+
+.main{
     display: flex;
-    flex-wrap: wrap;
-    text-align: justify;
-    width: 300px;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
 }
+
+
+
+.contenttwo{
+    background-image: url("img-locations-background.jpg");
+    height: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 1200px;
+    row-gap: 15px;
+    align-items: center;
+
+}
+.contenttwo p{
+    position: relative;
+    top: 5%;
+}
+.locations{
+    display:inline-flex ;
+    flex-direction: row;
+    column-gap: 40px;
+    flex-wrap: wrap; 
+}
+.place{
+    width: 300px;
+    line-height: 50px ;
+    background-color: black;
+}
+
+.footer{
+     height: 200px;
+}
+
+.copyright{
+    padding-left: 20px;
+    text-align: left;
+}
+
