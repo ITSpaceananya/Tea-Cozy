@@ -8,12 +8,14 @@ body{
 }
 
 .container{
-    position: sticky;
     height: 69px;
     display: flex;
     justify-content: space-between;
 }
 
+.logo{
+    height:50px;
+}
 
 nav li{
     text-decoration: underline;
