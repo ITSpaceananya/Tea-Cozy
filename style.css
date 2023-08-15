@@ -4,19 +4,17 @@ body{
     font-size: 22px;
     opacity: 0.9;
     color:seashell ;
-    text-align: center;
+    text-align: center; 
+    
 }
 
 .container{
     position: fixed;
     height: 69px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
 }
 
-nav{
-    float: right;
-}
 .logo{
     height: 50px;
 
@@ -26,7 +24,7 @@ nav li{
     text-decoration: underline;
     list-style:none;
     padding: 10px;
-    display: inline;
+    display: inline-block ;
 } 
 
 .header{
