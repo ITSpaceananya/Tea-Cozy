@@ -50,7 +50,6 @@ nav li{
     flex-wrap: wrap;
     justify-content:center;
     text-align: center;
-    column-gap: 1em;
 
     
 }
