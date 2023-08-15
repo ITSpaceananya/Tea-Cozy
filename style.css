@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    position: fixed;
+    position: sticky;
     height: 69px;
     display: flex;
     justify-content: space-between;
