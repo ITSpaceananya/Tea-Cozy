@@ -10,15 +10,12 @@ body{
 .container{
     position: fixed;
     height: 69px;
+    display: inline-flex;
+    justify-content: space-between;
 }
 
-nav{
-    float: right;
-}
 .logo{
     height: 50px;
-    float: left;
-    margin-right: auto;
 
 }
 
