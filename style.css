@@ -8,9 +8,7 @@ body{
 }
 
 .container{
-    position: fixed;
-    height: 69px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
